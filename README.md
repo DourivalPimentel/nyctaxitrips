@@ -27,5 +27,5 @@ The results of the analysis are being displayed on this <a href="https://databri
 
 ## Replicate and Preproccess the dataset using databricks
 
-The following script download the dataset from a public link and reupload them into my s3 bucket. At the same time, to simulate a real streaming data, the 2009 trips dataset was sorted and saved as individual records inside the same bucket. The script to do that can be imported through this <a href="https://databricks-prod-cloudfront.cloud.databricks.com/public/4027ec902e239c93eaaa8714f173bcfc/1536705237491348/3558946588555567/6882450809162848/latest.html">link.</a>
-### DANGER! Any change in this script will change the files inside the s3 bucket and may affect further analysis.
+The following script download the dataset from a public link and reupload them into my s3 bucket. At the same time, to simulate a real streaming data, the 2009 trips dataset was sorted and saved as individual records inside the same bucket. The script to do that can be imported through this <a href="https://databricks-prod-cloudfront.cloud.databricks.com/public/4027ec902e239c93eaaa8714f173bcfc/1536705237491348/3558946588555567/6882450809162848/latest.html">link.</a> <strong> Any change in this script will change the files inside the s3 bucket and may affect further analysis.</strong> 
+This script does not set the newly uploaded data as public, this configuration will be added in the future and still need to be done manually.
